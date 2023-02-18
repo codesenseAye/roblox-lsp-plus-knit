@@ -53,9 +53,9 @@ Roblox OS Community Discord Server: https://discord.gg/c4nPcZHwFU
 
 ### My Additions Preview
 
-![avatar](https://imgur.com/a/OfotL5Z.gif)
-![avatar](https://imgur.com/a/rWoQKyw.gif)
-![avatar](https://imgur.com/a/MLAcROy.gif)
+![avatar](https://i.imgur.com/ltJ2BEt.gif)
+![avatar](https://i.imgur.com/ef7vq0b.gif)
+![avatar](https://i.imgur.com/sRSYGsq.gif)
 
 
 ### Preview
