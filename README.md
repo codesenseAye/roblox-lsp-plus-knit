@@ -1,4 +1,4 @@
-# Roblox Luau Language Server
+# Roblox Luau Language Server + [Knit](https://github.com/Sleitnick/Knit) by [Sleitnick](https://github.com/Sleitnick)
 
 [Original Project](https://github.com/sumneko/lua-language-server) by [sumneko](https://github.com/sumneko)
 
