@@ -51,11 +51,11 @@ Roblox OS Community Discord Server: https://discord.gg/c4nPcZHwFU
 - [x] Knit Method Auto Import
 - [x] Knit Method Hover
 
-## My Additions Preview
+### My Additions Preview
 
-![avatar](https://imgur.com/a/OfotL5Z.gif)
-![avatar](https://imgur.com/a/rWoQKyw.gif)
-![avatar](https://imgur.com/a/MLAcROy.gif)
+![avatar](https://i.imgur.com/a/OfotL5Z.gif)
+![avatar](https://i.imgur.com/a/rWoQKyw.gif)
+![avatar](https://i.imgur.com/a/MLAcROy.gif)
 
 
 ### Preview
