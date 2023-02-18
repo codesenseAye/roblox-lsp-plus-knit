@@ -3,7 +3,7 @@
 		"onLanguage:lua",
 		"workspaceContains:/*.project.json"
 	],
-	"author": "Nightrains",
+	"author": "danielaye (Codesense) / Daniel Wallace - Wonder Works Studio",
 	"capabilities": {
 		"untrustedWorkspaces": {
 			"description": "",
@@ -1347,8 +1347,8 @@
 			}
 		]
 	},
-	"description": "Roblox Luau Language Server.",
-	"displayName": "Roblox LSP",
+	"description": "Knit + Roblox Luau Language Server.",
+	"displayName": "Knit + Roblox LSP",
 	"engines": {
 		"vscode": "^1.60.0"
 	},
@@ -1356,17 +1356,18 @@
 	"keywords": [
 		"Luau",
 		"IntelliSense",
-		"Roblox"
+		"Roblox",
+		"Knit"
 	],
 	"license": "MIT",
 	"main": "./client/out/extension",
-	"name": "robloxlsp",
-	"publisher": "Nightrains",
+	"name": "roblox-lsp-plus-knit",
+	"publisher": "danielAyeCodesense",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/NightrainsRbx/RobloxLsp"
+		"url": "https://github.com/codesenseAye/roblox-lsp-plus-knit"
 	},
-	"version": "1.6.7",
+	"version": "0.0.1",
 	"__metadata": {
 		"id": "169d2b9c-69d2-482a-aee2-ea6c33ed4e89",
 		"publisherId": "e1e7384e-2406-4940-a937-5fad58f8815e",
