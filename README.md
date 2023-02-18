@@ -1,6 +1,7 @@
 # Roblox Luau Language Server
 
 [Original Project](https://github.com/sumneko/lua-language-server) by [sumneko](https://github.com/sumneko)
+[NightrainsRbx Project](https://github.com/NightrainsRbx/RobloxLsp)
 
 Make sure you don't have both [Lua](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) by sumneko and Roblox LSP enabled.
 
@@ -41,6 +42,14 @@ Roblox OS Community Discord Server: https://discord.gg/c4nPcZHwFU
 - [x] Multi Workspace
 - [x] Semantic Tokens
 
+## My Additions
+
+- [x] Knit Go-to File
+- [x] Knit Method Auto Completion
+- [x] Knit Method Signature Help
+- [x] Knit Method Auto Import
+- [x] Knit Method Hover
+
 ### Preview
 
 ![avatar](https://i.imgur.com/4sgYDii.gif)
@@ -73,6 +82,7 @@ If you need to build your own binaries, follow the instructions at https://githu
 
 ## Acknowledgement
 
+* [NightrainsRbx](https://github.com/NightrainsRbx)
 * [sumneko](https://github.com/sumneko)
 * [actboy168](https://github.com/actboy168)
 * [Dekkonot](https://github.com/Dekkonot)
