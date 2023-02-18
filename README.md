@@ -55,10 +55,19 @@ Roblox OS Community Discord Server: https://discord.gg/c4nPcZHwFU
 
 ![avatar](https://i.imgur.com/3cv1NER.gif)
 Knit Method Auto Import
+
+-------
+
 ![avatar](https://i.imgur.com/oPm0UyW.gif)
 Knit Go-to File
+
+-------
+
 ![avatar](https://i.imgur.com/nUPGEks.gif)
 Knit Method Auto Completion
+
+-------
+
 ![avatar](https://i.imgur.com/0DPDhi2.png)
 Knit Method Hover
 
