@@ -1,0 +1,445 @@
+[15:35:58.446][info] [#0:c:\Users\shott\OneDrive - Wonder Works Studio\robloxlsp-1.6.7\roblox-lsp-plus-knit\server\main.lua:54]: Lua Lsp startup, root: 	c:/Users/shott/OneDrive - Wonder Works Studio/robloxlsp-1.6.7/roblox-lsp-plus-knit/server
+[15:35:58.446][debug][#0:c:\Users\shott\OneDrive - Wonder Works Studio\robloxlsp-1.6.7\roblox-lsp-plus-knit\server\main.lua:55]: ROOT:	c:/Users/shott/OneDrive - Wonder Works Studio/robloxlsp-1.6.7/roblox-lsp-plus-knit/server
+[15:35:58.446][debug][#0:c:\Users\shott\OneDrive - Wonder Works Studio\robloxlsp-1.6.7\roblox-lsp-plus-knit\server\main.lua:56]: LOGPATH:	c:/Users/shott/OneDrive - Wonder Works Studio/robloxlsp-1.6.7/roblox-lsp-plus-knit/server/log
+[15:35:58.446][debug][#0:c:\Users\shott\OneDrive - Wonder Works Studio\robloxlsp-1.6.7\roblox-lsp-plus-knit\server\main.lua:57]: METAPATH:	c:/Users/shott/OneDrive - Wonder Works Studio/robloxlsp-1.6.7/roblox-lsp-plus-knit/server/meta
+[15:35:58.509][info] [#0:script\pub\pub.lua:48]: Create brave:	1
+[15:35:58.509][info] [#0:script\pub\pub.lua:48]: Create brave:	2
+[15:35:58.509][info] [#0:script\pub\pub.lua:48]: Create brave:	3
+[15:35:58.509][info] [#0:script\pub\pub.lua:48]: Create brave:	4
+[15:35:58.509][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.916 MB
+        # 00 : 1.916 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[15:35:58.555][debug][#0:script\provider\client.lua:73]: Client init	{
+    capabilities = {
+        general = {
+            markdown = {
+                parser = "marked",
+                version = "1.1.0",
+            },
+            regularExpressions = {
+                engine = "ECMAScript",
+                version = "ES2020",
+            },
+            staleRequestSupport = {
+                cancel = true,
+                retryOnContentModified = {
+                    [1] = "textDocument/semanticTokens/full",
+                    [2] = "textDocument/semanticTokens/range",
+                    [3] = "textDocument/semanticTokens/full/delta",
+                },
+            },
+        },
+        textDocument = {
+            callHierarchy = {
+                dynamicRegistration = true,
+            },
+            codeAction = {
+                codeActionLiteralSupport = {
+                    codeActionKind = {
+                        valueSet = {
+                            [1] = "",
+                            [2] = "quickfix",
+                            [3] = "refactor",
+                            [4] = "refactor.extract",
+                            [5] = "refactor.inline",
+                            [6] = "refactor.rewrite",
+                            [7] = "source",
+                            [8] = "source.organizeImports",
+                        },
+                    },
+                },
+                dataSupport = true,
+                disabledSupport = true,
+                dynamicRegistration = true,
+                honorsChangeAnnotations = false,
+                isPreferredSupport = true,
+                resolveSupport = {
+                    properties = {
+                        [1] = "edit",
+                    },
+                },
+            },
+            codeLens = {
+                dynamicRegistration = true,
+            },
+            colorProvider = {
+                dynamicRegistration = true,
+            },
+            completion = {
+                completionItem = {
+                    commitCharactersSupport = true,
+                    deprecatedSupport = true,
+                    documentationFormat = {
+                        [1] = "markdown",
+                        [2] = "plaintext",
+                    },
+                    insertReplaceSupport = true,
+                    insertTextModeSupport = {
+                        valueSet = {
+                            [1] = 1,
+                            [2] = 2,
+                        },
+                    },
+                    labelDetailsSupport = true,
+                    preselectSupport = true,
+                    resolveSupport = {
+                        properties = {
+                            [1] = "documentation",
+                            [2] = "detail",
+                            [3] = "additionalTextEdits",
+                        },
+                    },
+                    snippetSupport = true,
+                    tagSupport = {
+                        valueSet = {
+                            [1] = 1,
+                        },
+                    },
+                },
+                completionItemKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                    },
+                },
+                contextSupport = true,
+                dynamicRegistration = true,
+                insertTextMode = 2,
+            },
+            declaration = {
+                dynamicRegistration = true,
+                linkSupport = true,
+            },
+            definition = {
+                dynamicRegistration = true,
+                linkSupport = true,
+            },
+            documentHighlight = {
+                dynamicRegistration = true,
+            },
+            documentLink = {
+                dynamicRegistration = true,
+                tooltipSupport = true,
+            },
+            documentSymbol = {
+                dynamicRegistration = true,
+                hierarchicalDocumentSymbolSupport = true,
+                labelSupport = true,
+                symbolKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                        [26] = 26,
+                    },
+                },
+                tagSupport = {
+                    valueSet = {
+                        [1] = 1,
+                    },
+                },
+            },
+            foldingRange = {
+                dynamicRegistration = true,
+                lineFoldingOnly = true,
+                rangeLimit = 5000,
+            },
+            formatting = {
+                dynamicRegistration = true,
+            },
+            hover = {
+                contentFormat = {
+                    [1] = "markdown",
+                    [2] = "plaintext",
+                },
+                dynamicRegistration = true,
+            },
+            implementation = {
+                dynamicRegistration = true,
+                linkSupport = true,
+            },
+            linkedEditingRange = {
+                dynamicRegistration = true,
+            },
+            onTypeFormatting = {
+                dynamicRegistration = true,
+            },
+            publishDiagnostics = {
+                codeDescriptionSupport = true,
+                dataSupport = true,
+                relatedInformation = true,
+                tagSupport = {
+                    valueSet = {
+                        [1] = 1,
+                        [2] = 2,
+                    },
+                },
+                versionSupport = false,
+            },
+            rangeFormatting = {
+                dynamicRegistration = true,
+            },
+            references = {
+                dynamicRegistration = true,
+            },
+            rename = {
+                dynamicRegistration = true,
+                honorsChangeAnnotations = true,
+                prepareSupport = true,
+                prepareSupportDefaultBehavior = 1,
+            },
+            selectionRange = {
+                dynamicRegistration = true,
+            },
+            semanticTokens = {
+                dynamicRegistration = true,
+                formats = {
+                    [1] = "relative",
+                },
+                multilineTokenSupport = false,
+                overlappingTokenSupport = false,
+                requests = {
+                    full = {
+                        delta = true,
+                    },
+                    range = true,
+                },
+                tokenModifiers = {
+                    [01] = "declaration",
+                    [02] = "definition",
+                    [03] = "readonly",
+                    [04] = "static",
+                    [05] = "deprecated",
+                    [06] = "abstract",
+                    [07] = "async",
+                    [08] = "modification",
+                    [09] = "documentation",
+                    [10] = "defaultLibrary",
+                },
+                tokenTypes = {
+                    [01] = "namespace",
+                    [02] = "type",
+                    [03] = "class",
+                    [04] = "enum",
+                    [05] = "interface",
+                    [06] = "struct",
+                    [07] = "typeParameter",
+                    [08] = "parameter",
+                    [09] = "variable",
+                    [10] = "property",
+                    [11] = "enumMember",
+                    [12] = "event",
+                    [13] = "function",
+                    [14] = "method",
+                    [15] = "macro",
+                    [16] = "keyword",
+                    [17] = "modifier",
+                    [18] = "comment",
+                    [19] = "string",
+                    [20] = "number",
+                    [21] = "regexp",
+                    [22] = "operator",
+                },
+            },
+            signatureHelp = {
+                contextSupport = true,
+                dynamicRegistration = true,
+                signatureInformation = {
+                    activeParameterSupport = true,
+                    documentationFormat = {
+                        [1] = "markdown",
+                        [2] = "plaintext",
+                    },
+                    parameterInformation = {
+                        labelOffsetSupport = true,
+                    },
+                },
+            },
+            synchronization = {
+                didSave = true,
+                dynamicRegistration = true,
+                willSave = true,
+                willSaveWaitUntil = true,
+            },
+            typeDefinition = {
+                dynamicRegistration = true,
+                linkSupport = true,
+            },
+        },
+        window = {
+            showDocument = {
+                support = true,
+            },
+            showMessage = {
+                messageActionItem = {
+                    additionalPropertiesSupport = true,
+                },
+            },
+            workDoneProgress = true,
+        },
+        workspace = {
+            applyEdit = true,
+            codeLens = {
+                refreshSupport = true,
+            },
+            configuration = true,
+            didChangeConfiguration = {
+                dynamicRegistration = true,
+            },
+            didChangeWatchedFiles = {
+                dynamicRegistration = true,
+            },
+            executeCommand = {
+                dynamicRegistration = true,
+            },
+            fileOperations = {
+                didCreate = true,
+                didDelete = true,
+                didRename = true,
+                dynamicRegistration = true,
+                willCreate = true,
+                willDelete = true,
+                willRename = true,
+            },
+            semanticTokens = {
+                refreshSupport = true,
+            },
+            symbol = {
+                dynamicRegistration = true,
+                symbolKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                        [26] = 26,
+                    },
+                },
+                tagSupport = {
+                    valueSet = {
+                        [1] = 1,
+                    },
+                },
+            },
+            workspaceEdit = {
+                changeAnnotationSupport = {
+                    groupsOnLabel = true,
+                },
+                documentChanges = true,
+                failureHandling = "textOnlyTransactional",
+                normalizesLineEndings = true,
+                resourceOperations = {
+                    [1] = "create",
+                    [2] = "rename",
+                    [3] = "delete",
+                },
+            },
+            workspaceFolders = true,
+        },
+    },
+    clientInfo = {
+        name = "Visual Studio Code",
+        version = "1.75.1",
+    },
+    locale = "en-us",
+    processId = 30440,
+    rootPath = "c:\\Users\\shott\\OneDrive - Wonder Works Studio\\Desktop\\monster mash\\kids-relief",
+    rootUri = "file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief",
+    trace = "off",
+    workDoneToken = "27bc73d6-0e1e-465d-88f1-0d062b23d393",
+    workspaceFolders = {
+        [1] = {
+            name = "kids-relief",
+            uri = "file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief",
+        },
+    },
+}
+[15:35:58.555][info] [#0:script\language.lua:135]: VSC language: en-us
+[15:35:58.555][info] [#0:script\language.lua:136]: LS  language: en-us
+[15:35:58.555][info] [#0:script\workspace\workspace.lua:32]: Workspace inited: 	file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief
+[15:35:58.555][info] [#0:script\workspace\workspace.lua:39]: Log path: 	c:/Users/shott/OneDrive - Wonder Works Studio/robloxlsp-1.6.7/roblox-lsp-plus-knit/server/log/file_c%3A_Users_shott_OneDrive%20-%20Wonder%20Works%20Studio_Desktop_monster%20mash_kids-relief.log

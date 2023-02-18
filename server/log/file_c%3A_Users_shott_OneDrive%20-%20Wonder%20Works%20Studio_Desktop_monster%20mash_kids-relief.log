@@ -1,0 +1,1277 @@
+[15:35:58.446][info] [#0:c:\Users\shott\OneDrive - Wonder Works Studio\robloxlsp-1.6.7\roblox-lsp-plus-knit\server\main.lua:54]: Lua Lsp startup, root: 	c:/Users/shott/OneDrive - Wonder Works Studio/robloxlsp-1.6.7/roblox-lsp-plus-knit/server
+[15:35:58.446][debug][#0:c:\Users\shott\OneDrive - Wonder Works Studio\robloxlsp-1.6.7\roblox-lsp-plus-knit\server\main.lua:55]: ROOT:	c:/Users/shott/OneDrive - Wonder Works Studio/robloxlsp-1.6.7/roblox-lsp-plus-knit/server
+[15:35:58.446][debug][#0:c:\Users\shott\OneDrive - Wonder Works Studio\robloxlsp-1.6.7\roblox-lsp-plus-knit\server\main.lua:56]: LOGPATH:	c:/Users/shott/OneDrive - Wonder Works Studio/robloxlsp-1.6.7/roblox-lsp-plus-knit/server/log
+[15:35:58.446][debug][#0:c:\Users\shott\OneDrive - Wonder Works Studio\robloxlsp-1.6.7\roblox-lsp-plus-knit\server\main.lua:57]: METAPATH:	c:/Users/shott/OneDrive - Wonder Works Studio/robloxlsp-1.6.7/roblox-lsp-plus-knit/server/meta
+[15:35:58.509][info] [#0:script\pub\pub.lua:48]: Create brave:	1
+[15:35:58.509][info] [#0:script\pub\pub.lua:48]: Create brave:	2
+[15:35:58.509][info] [#0:script\pub\pub.lua:48]: Create brave:	3
+[15:35:58.509][info] [#0:script\pub\pub.lua:48]: Create brave:	4
+[15:35:58.509][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.916 MB
+        # 00 : 1.916 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[15:35:58.555][debug][#0:script\provider\client.lua:73]: Client init	{
+    capabilities = {
+        general = {
+            markdown = {
+                parser = "marked",
+                version = "1.1.0",
+            },
+            regularExpressions = {
+                engine = "ECMAScript",
+                version = "ES2020",
+            },
+            staleRequestSupport = {
+                cancel = true,
+                retryOnContentModified = {
+                    [1] = "textDocument/semanticTokens/full",
+                    [2] = "textDocument/semanticTokens/range",
+                    [3] = "textDocument/semanticTokens/full/delta",
+                },
+            },
+        },
+        textDocument = {
+            callHierarchy = {
+                dynamicRegistration = true,
+            },
+            codeAction = {
+                codeActionLiteralSupport = {
+                    codeActionKind = {
+                        valueSet = {
+                            [1] = "",
+                            [2] = "quickfix",
+                            [3] = "refactor",
+                            [4] = "refactor.extract",
+                            [5] = "refactor.inline",
+                            [6] = "refactor.rewrite",
+                            [7] = "source",
+                            [8] = "source.organizeImports",
+                        },
+                    },
+                },
+                dataSupport = true,
+                disabledSupport = true,
+                dynamicRegistration = true,
+                honorsChangeAnnotations = false,
+                isPreferredSupport = true,
+                resolveSupport = {
+                    properties = {
+                        [1] = "edit",
+                    },
+                },
+            },
+            codeLens = {
+                dynamicRegistration = true,
+            },
+            colorProvider = {
+                dynamicRegistration = true,
+            },
+            completion = {
+                completionItem = {
+                    commitCharactersSupport = true,
+                    deprecatedSupport = true,
+                    documentationFormat = {
+                        [1] = "markdown",
+                        [2] = "plaintext",
+                    },
+                    insertReplaceSupport = true,
+                    insertTextModeSupport = {
+                        valueSet = {
+                            [1] = 1,
+                            [2] = 2,
+                        },
+                    },
+                    labelDetailsSupport = true,
+                    preselectSupport = true,
+                    resolveSupport = {
+                        properties = {
+                            [1] = "documentation",
+                            [2] = "detail",
+                            [3] = "additionalTextEdits",
+                        },
+                    },
+                    snippetSupport = true,
+                    tagSupport = {
+                        valueSet = {
+                            [1] = 1,
+                        },
+                    },
+                },
+                completionItemKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                    },
+                },
+                contextSupport = true,
+                dynamicRegistration = true,
+                insertTextMode = 2,
+            },
+            declaration = {
+                dynamicRegistration = true,
+                linkSupport = true,
+            },
+            definition = {
+                dynamicRegistration = true,
+                linkSupport = true,
+            },
+            documentHighlight = {
+                dynamicRegistration = true,
+            },
+            documentLink = {
+                dynamicRegistration = true,
+                tooltipSupport = true,
+            },
+            documentSymbol = {
+                dynamicRegistration = true,
+                hierarchicalDocumentSymbolSupport = true,
+                labelSupport = true,
+                symbolKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                        [26] = 26,
+                    },
+                },
+                tagSupport = {
+                    valueSet = {
+                        [1] = 1,
+                    },
+                },
+            },
+            foldingRange = {
+                dynamicRegistration = true,
+                lineFoldingOnly = true,
+                rangeLimit = 5000,
+            },
+            formatting = {
+                dynamicRegistration = true,
+            },
+            hover = {
+                contentFormat = {
+                    [1] = "markdown",
+                    [2] = "plaintext",
+                },
+                dynamicRegistration = true,
+            },
+            implementation = {
+                dynamicRegistration = true,
+                linkSupport = true,
+            },
+            linkedEditingRange = {
+                dynamicRegistration = true,
+            },
+            onTypeFormatting = {
+                dynamicRegistration = true,
+            },
+            publishDiagnostics = {
+                codeDescriptionSupport = true,
+                dataSupport = true,
+                relatedInformation = true,
+                tagSupport = {
+                    valueSet = {
+                        [1] = 1,
+                        [2] = 2,
+                    },
+                },
+                versionSupport = false,
+            },
+            rangeFormatting = {
+                dynamicRegistration = true,
+            },
+            references = {
+                dynamicRegistration = true,
+            },
+            rename = {
+                dynamicRegistration = true,
+                honorsChangeAnnotations = true,
+                prepareSupport = true,
+                prepareSupportDefaultBehavior = 1,
+            },
+            selectionRange = {
+                dynamicRegistration = true,
+            },
+            semanticTokens = {
+                dynamicRegistration = true,
+                formats = {
+                    [1] = "relative",
+                },
+                multilineTokenSupport = false,
+                overlappingTokenSupport = false,
+                requests = {
+                    full = {
+                        delta = true,
+                    },
+                    range = true,
+                },
+                tokenModifiers = {
+                    [01] = "declaration",
+                    [02] = "definition",
+                    [03] = "readonly",
+                    [04] = "static",
+                    [05] = "deprecated",
+                    [06] = "abstract",
+                    [07] = "async",
+                    [08] = "modification",
+                    [09] = "documentation",
+                    [10] = "defaultLibrary",
+                },
+                tokenTypes = {
+                    [01] = "namespace",
+                    [02] = "type",
+                    [03] = "class",
+                    [04] = "enum",
+                    [05] = "interface",
+                    [06] = "struct",
+                    [07] = "typeParameter",
+                    [08] = "parameter",
+                    [09] = "variable",
+                    [10] = "property",
+                    [11] = "enumMember",
+                    [12] = "event",
+                    [13] = "function",
+                    [14] = "method",
+                    [15] = "macro",
+                    [16] = "keyword",
+                    [17] = "modifier",
+                    [18] = "comment",
+                    [19] = "string",
+                    [20] = "number",
+                    [21] = "regexp",
+                    [22] = "operator",
+                },
+            },
+            signatureHelp = {
+                contextSupport = true,
+                dynamicRegistration = true,
+                signatureInformation = {
+                    activeParameterSupport = true,
+                    documentationFormat = {
+                        [1] = "markdown",
+                        [2] = "plaintext",
+                    },
+                    parameterInformation = {
+                        labelOffsetSupport = true,
+                    },
+                },
+            },
+            synchronization = {
+                didSave = true,
+                dynamicRegistration = true,
+                willSave = true,
+                willSaveWaitUntil = true,
+            },
+            typeDefinition = {
+                dynamicRegistration = true,
+                linkSupport = true,
+            },
+        },
+        window = {
+            showDocument = {
+                support = true,
+            },
+            showMessage = {
+                messageActionItem = {
+                    additionalPropertiesSupport = true,
+                },
+            },
+            workDoneProgress = true,
+        },
+        workspace = {
+            applyEdit = true,
+            codeLens = {
+                refreshSupport = true,
+            },
+            configuration = true,
+            didChangeConfiguration = {
+                dynamicRegistration = true,
+            },
+            didChangeWatchedFiles = {
+                dynamicRegistration = true,
+            },
+            executeCommand = {
+                dynamicRegistration = true,
+            },
+            fileOperations = {
+                didCreate = true,
+                didDelete = true,
+                didRename = true,
+                dynamicRegistration = true,
+                willCreate = true,
+                willDelete = true,
+                willRename = true,
+            },
+            semanticTokens = {
+                refreshSupport = true,
+            },
+            symbol = {
+                dynamicRegistration = true,
+                symbolKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                        [26] = 26,
+                    },
+                },
+                tagSupport = {
+                    valueSet = {
+                        [1] = 1,
+                    },
+                },
+            },
+            workspaceEdit = {
+                changeAnnotationSupport = {
+                    groupsOnLabel = true,
+                },
+                documentChanges = true,
+                failureHandling = "textOnlyTransactional",
+                normalizesLineEndings = true,
+                resourceOperations = {
+                    [1] = "create",
+                    [2] = "rename",
+                    [3] = "delete",
+                },
+            },
+            workspaceFolders = true,
+        },
+    },
+    clientInfo = {
+        name = "Visual Studio Code",
+        version = "1.75.1",
+    },
+    locale = "en-us",
+    processId = 30440,
+    rootPath = "c:\\Users\\shott\\OneDrive - Wonder Works Studio\\Desktop\\monster mash\\kids-relief",
+    rootUri = "file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief",
+    trace = "off",
+    workDoneToken = "27bc73d6-0e1e-465d-88f1-0d062b23d393",
+    workspaceFolders = {
+        [1] = {
+            name = "kids-relief",
+            uri = "file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief",
+        },
+    },
+}
+[15:35:58.555][info] [#0:script\language.lua:135]: VSC language: en-us
+[15:35:58.555][info] [#0:script\language.lua:136]: LS  language: en-us
+[15:35:58.555][info] [#0:script\workspace\workspace.lua:32]: Workspace inited: 	file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief
+[15:35:58.555][info] [#0:script\workspace\workspace.lua:39]: Log path: 	c:/Users/shott/OneDrive - Wonder Works Studio/robloxlsp-1.6.7/roblox-lsp-plus-knit/server/log/file_c%3A_Users_shott_OneDrive%20-%20Wonder%20Works%20Studio_Desktop_monster%20mash_kids-relief.log
+[15:35:59.712][debug][#0:script\provider\provider.lua:270]: didOpen	file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/InfluencerDonationMenuGui.lua
+[15:35:59.743][debug][#0:script\config.lua:291]: Config update: 	{
+    color = {
+        mode = "Semantic",
+    },
+    completion = {
+        alwaysShowMethods = false,
+        callParenthesess = false,
+        deprecatedMembers = false,
+        displayContext = 0,
+        enable = true,
+        endAutocompletion = false,
+        keywordSnippet = "Replace",
+        showParams = true,
+        workspaceWord = false,
+    },
+    diagnostics = {
+        disable = {
+        },
+        enable = true,
+        globals = {
+        },
+        neededFileStatus = {
+            ["circle-doc-class"] = "Any",
+            ["doc-field-no-class"] = "Any",
+            ["duplicate-doc-class"] = "Any",
+            ["duplicate-doc-field"] = "Any",
+            ["duplicate-doc-param"] = "Any",
+            ["duplicate-index"] = "Any",
+            ["duplicate-set-field"] = "Any",
+            ["empty-block"] = "Opened",
+            ["global-in-nil-env"] = "Any",
+            ["invalid-class-name"] = "Any",
+            ["newfield-call"] = "Any",
+            ["newline-call"] = "Any",
+            ["no-implicit-any"] = "None",
+            ["redefined-local"] = "Opened",
+            ["redefined-type"] = "Any",
+            ["redundant-parameter"] = "Opened",
+            ["redundant-value"] = "Opened",
+            ["trailing-space"] = "Opened",
+            ["unbalanced-assignments"] = "Any",
+            ["undefined-doc-class"] = "Any",
+            ["undefined-doc-module"] = "Opened",
+            ["undefined-doc-name"] = "Any",
+            ["undefined-doc-param"] = "Any",
+            ["undefined-env-child"] = "Any",
+            ["undefined-global"] = "Any",
+            ["undefined-type"] = "Any",
+            ["unknown-diag-code"] = "Any",
+            ["unused-function"] = "Opened",
+            ["unused-local"] = "Opened",
+            ["unused-vararg"] = "Opened",
+            deprecated = "Opened",
+        },
+        severity = {
+            ["circle-doc-class"] = "Warning",
+            ["doc-field-no-class"] = "Warning",
+            ["duplicate-doc-class"] = "Warning",
+            ["duplicate-doc-field"] = "Warning",
+            ["duplicate-doc-param"] = "Warning",
+            ["duplicate-index"] = "Warning",
+            ["duplicate-set-field"] = "Warning",
+            ["empty-block"] = "Hint",
+            ["global-in-nil-env"] = "Warning",
+            ["invalid-class-name"] = "Warning",
+            ["newfield-call"] = "Warning",
+            ["newline-call"] = "Information",
+            ["no-implicit-any"] = "Information",
+            ["redefined-local"] = "Hint",
+            ["redefined-type"] = "Warning",
+            ["redundant-parameter"] = "Hint",
+            ["redundant-value"] = "Hint",
+            ["suggested-import"] = "Information",
+            ["trailing-space"] = "Hint",
+            ["unbalanced-assignments"] = "Hint",
+            ["undefined-doc-class"] = "Warning",
+            ["undefined-doc-module"] = "Warning",
+            ["undefined-doc-name"] = "Warning",
+            ["undefined-doc-param"] = "Warning",
+            ["undefined-env-child"] = "Information",
+            ["undefined-global"] = "Warning",
+            ["undefined-type"] = "Warning",
+            ["unknown-diag-code"] = "Warning",
+            ["unused-function"] = "Hint",
+            ["unused-local"] = "Hint",
+            ["unused-vararg"] = "Hint",
+            deprecated = "Hint",
+        },
+        workspaceDelay = 0,
+        workspaceRate = 100,
+    },
+    hint = {
+        enable = true,
+        paramName = true,
+        paramType = true,
+        returnType = true,
+        setType = false,
+        variableType = true,
+    },
+    hover = {
+        enable = true,
+        enumsLimit = 5,
+        fieldInfer = 3000,
+        previewFields = 100,
+        viewNumber = true,
+        viewString = true,
+        viewStringMax = 1000,
+    },
+    intelliSense = {
+        autoDetectLibraries = true,
+        searchDepth = 0,
+    },
+    misc = {
+        color3Picker = true,
+        goToScriptLink = true,
+        importAlwaysAbsolute = {
+        },
+        importIgnore = {
+        },
+        importPathType = "Both",
+        importScriptChildren = false,
+        serverPort = 27845,
+        serviceAutoImport = true,
+    },
+    runtime = {
+        fileEncoding = "utf8",
+        meta = "${version} ${language}",
+        path = {
+            [1] = "?.lua",
+            [2] = "?/init.lua",
+            [3] = "?/?.lua",
+            [4] = "?.luau",
+            [5] = "?/init.luau",
+            [6] = "?/?.luau",
+        },
+        plugin = ".vscode/lua/plugin.lua",
+    },
+    signatureHelp = {
+        documentation = true,
+        enable = true,
+    },
+    suggestedImports = {
+        enable = true,
+        importAlwaysAbsolute = {
+        },
+        importIgnore = {
+            [1] = "**/_Index/**",
+        },
+        importPathType = "Both",
+        importScriptChildren = false,
+    },
+    typeChecking = {
+        mode = "Disabled",
+        options = {
+            ["ignore-extra-fields"] = false,
+            ["infer-instance-from-unknown"] = false,
+            ["recursive-get-type"] = false,
+            ["union-bivariance"] = true,
+        },
+        showFullType = false,
+    },
+    window = {
+        progressBar = true,
+        statusBar = true,
+    },
+    workspace = {
+        ignoreDir = {
+            ["**/_Index/**"] = true,
+            [".vscode"] = true,
+        },
+        ignoreSubmodules = true,
+        library = {
+        },
+        loadMode = "All Files",
+        loadRequiredFiles = true,
+        maxPreload = 1000,
+        preloadFileSize = 100,
+        rojoExecutablePath = "",
+        rojoProjectFile = "",
+        useFilesExclude = true,
+        useGitIgnore = true,
+        useRojoSourcemap = true,
+    },
+}	{
+    acceptSuggestionOnEnter = "on",
+    associations = {
+        filesystem = "cpp",
+        xstring = "cpp",
+    },
+    exclude = {
+        ["**/.DS_Store"] = true,
+        ["**/.git"] = true,
+        ["**/.hg"] = true,
+        ["**/.svn"] = true,
+        ["**/CVS"] = true,
+        ["**/Thumbs.db"] = true,
+    },
+    semantic = true,
+}
+[15:35:59.743][debug][#0:script\provider\completion.lua:26]: Enable completion.
+[15:35:59.759][debug][#0:script\provider\semantic-tokens.lua:32]: Enable semantic tokens.
+[15:36:00.774][debug][#0:script\provider\semantic-tokens.lua:111]: Refresh semantic tokens.
+[15:36:00.774][debug][#0:script\proto\proto.lua:131]: Method [initialized] takes [1.185]sec.
+[15:36:00.774][debug][#0:script\proto\proto.lua:131]: Method [textDocument/didOpen] takes [1.064]sec.
+[15:36:00.774][info] [#0:script\workspace\workspace.lua:302]: Preload start.
+[15:36:00.774][info] [#0:script\workspace\workspace.lua:82]: Ignore directory:	.vscode
+[15:36:00.774][info] [#0:script\workspace\workspace.lua:82]: Ignore directory:	**/_Index/**
+[15:36:00.774][info] [#0:script\workspace\workspace.lua:89]: Ignore by exclude:	**/CVS
+[15:36:00.774][info] [#0:script\workspace\workspace.lua:89]: Ignore by exclude:	**/Thumbs.db
+[15:36:00.774][info] [#0:script\workspace\workspace.lua:89]: Ignore by exclude:	**/.git
+[15:36:00.774][info] [#0:script\workspace\workspace.lua:89]: Ignore by exclude:	**/.svn
+[15:36:00.774][info] [#0:script\workspace\workspace.lua:89]: Ignore by exclude:	**/.DS_Store
+[15:36:00.774][info] [#0:script\workspace\workspace.lua:89]: Ignore by exclude:	**/.hg
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	node_modules/
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	dist/
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.class
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.py[cod]
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.log
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.jar
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	target/
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	dist/
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	.idea/
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	TEST*.xml
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	.DS_Store
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	Thumbs.db
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.app
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.exe
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.war
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.mp4
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.tiff
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.avi
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.flv
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.mov
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.wmv
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	roblox.toml
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	.obsidian/
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:312]: Scan files at:	c:\Users\shott\OneDrive - Wonder Works Studio\Desktop\monster mash\kids-relief
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/ReplicatedFirst/LoadingScreen.client.lua , size = 3.388 KB
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/ReplicatedFirst/AssetLoader.lua , size = 1.389 KB
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/ReplicaService/ServerScriptService/ReplicaService.lua , size = 38.230 KB
+[15:36:00.790][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/ReplicaService/ReplicatedStorage/ReplicaController.lua , size = 39.474 KB
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/ReplicaService/ReplicatedStorage/RateLimiter.lua , size = 3.418 KB
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/ReplicaService/ReplicatedStorage/MadworkScriptSignal.lua , size = 6.259 KB
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/ReplicaService/ReplicatedStorage/MadworkMaid.lua , size = 3.628 KB
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Types.lua , size = 10.943 KB
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Tagger.lua , size = 0.864 KB
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Raycaster.lua , size = 1.102 KB
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/WWSUtils.lua , size = 2.983 KB
+[15:36:00.790][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/WWSRandomItemGenerator.lua , size = 3.810 KB
+[15:36:00.805][debug][#0:script\config.lua:291]: Config update: 	{
+    color = {
+        mode = "Semantic",
+    },
+    completion = {
+        alwaysShowMethods = false,
+        callParenthesess = false,
+        deprecatedMembers = false,
+        displayContext = 0,
+        enable = true,
+        endAutocompletion = false,
+        keywordSnippet = "Replace",
+        showParams = true,
+        workspaceWord = false,
+    },
+    diagnostics = {
+        disable = {
+        },
+        enable = true,
+        globals = {
+        },
+        neededFileStatus = {
+            ["circle-doc-class"] = "Any",
+            ["doc-field-no-class"] = "Any",
+            ["duplicate-doc-class"] = "Any",
+            ["duplicate-doc-field"] = "Any",
+            ["duplicate-doc-param"] = "Any",
+            ["duplicate-index"] = "Any",
+            ["duplicate-set-field"] = "Any",
+            ["empty-block"] = "Opened",
+            ["global-in-nil-env"] = "Any",
+            ["invalid-class-name"] = "Any",
+            ["newfield-call"] = "Any",
+            ["newline-call"] = "Any",
+            ["no-implicit-any"] = "None",
+            ["redefined-local"] = "Opened",
+            ["redefined-type"] = "Any",
+            ["redundant-parameter"] = "Opened",
+            ["redundant-value"] = "Opened",
+            ["trailing-space"] = "Opened",
+            ["unbalanced-assignments"] = "Any",
+            ["undefined-doc-class"] = "Any",
+            ["undefined-doc-module"] = "Opened",
+            ["undefined-doc-name"] = "Any",
+            ["undefined-doc-param"] = "Any",
+            ["undefined-env-child"] = "Any",
+            ["undefined-global"] = "Any",
+            ["undefined-type"] = "Any",
+            ["unknown-diag-code"] = "Any",
+            ["unused-function"] = "Opened",
+            ["unused-local"] = "Opened",
+            ["unused-vararg"] = "Opened",
+            deprecated = "Opened",
+        },
+        severity = {
+            ["circle-doc-class"] = "Warning",
+            ["doc-field-no-class"] = "Warning",
+            ["duplicate-doc-class"] = "Warning",
+            ["duplicate-doc-field"] = "Warning",
+            ["duplicate-doc-param"] = "Warning",
+            ["duplicate-index"] = "Warning",
+            ["duplicate-set-field"] = "Warning",
+            ["empty-block"] = "Hint",
+            ["global-in-nil-env"] = "Warning",
+            ["invalid-class-name"] = "Warning",
+            ["newfield-call"] = "Warning",
+            ["newline-call"] = "Information",
+            ["no-implicit-any"] = "Information",
+            ["redefined-local"] = "Hint",
+            ["redefined-type"] = "Warning",
+            ["redundant-parameter"] = "Hint",
+            ["redundant-value"] = "Hint",
+            ["suggested-import"] = "Information",
+            ["trailing-space"] = "Hint",
+            ["unbalanced-assignments"] = "Hint",
+            ["undefined-doc-class"] = "Warning",
+            ["undefined-doc-module"] = "Warning",
+            ["undefined-doc-name"] = "Warning",
+            ["undefined-doc-param"] = "Warning",
+            ["undefined-env-child"] = "Information",
+            ["undefined-global"] = "Warning",
+            ["undefined-type"] = "Warning",
+            ["unknown-diag-code"] = "Warning",
+            ["unused-function"] = "Hint",
+            ["unused-local"] = "Hint",
+            ["unused-vararg"] = "Hint",
+            deprecated = "Hint",
+        },
+        workspaceDelay = 0,
+        workspaceRate = 100,
+    },
+    hint = {
+        enable = true,
+        paramName = true,
+        paramType = true,
+        returnType = true,
+        setType = false,
+        variableType = true,
+    },
+    hover = {
+        enable = true,
+        enumsLimit = 5,
+        fieldInfer = 3000,
+        previewFields = 100,
+        viewNumber = true,
+        viewString = true,
+        viewStringMax = 1000,
+    },
+    intelliSense = {
+        autoDetectLibraries = true,
+        searchDepth = 0,
+    },
+    misc = {
+        color3Picker = true,
+        goToScriptLink = true,
+        importAlwaysAbsolute = {
+        },
+        importIgnore = {
+        },
+        importPathType = "Both",
+        importScriptChildren = false,
+        serverPort = 27845,
+        serviceAutoImport = true,
+    },
+    runtime = {
+        fileEncoding = "utf8",
+        meta = "${version} ${language}",
+        path = {
+            [1] = "?.lua",
+            [2] = "?/init.lua",
+            [3] = "?/?.lua",
+            [4] = "?.luau",
+            [5] = "?/init.luau",
+            [6] = "?/?.luau",
+        },
+        plugin = ".vscode/lua/plugin.lua",
+    },
+    signatureHelp = {
+        documentation = true,
+        enable = true,
+    },
+    suggestedImports = {
+        enable = true,
+        importAlwaysAbsolute = {
+        },
+        importIgnore = {
+            [1] = "**/_Index/**",
+        },
+        importPathType = "Both",
+        importScriptChildren = false,
+    },
+    typeChecking = {
+        mode = "Disabled",
+        options = {
+            ["ignore-extra-fields"] = false,
+            ["infer-instance-from-unknown"] = false,
+            ["recursive-get-type"] = false,
+            ["union-bivariance"] = true,
+        },
+        showFullType = false,
+    },
+    window = {
+        progressBar = true,
+        statusBar = true,
+    },
+    workspace = {
+        ignoreDir = {
+            ["**/_Index/**"] = true,
+            [".vscode"] = true,
+        },
+        ignoreSubmodules = true,
+        library = {
+        },
+        loadMode = "All Files",
+        loadRequiredFiles = true,
+        maxPreload = 1000,
+        preloadFileSize = 100,
+        rojoExecutablePath = "",
+        rojoProjectFile = "",
+        useFilesExclude = true,
+        useGitIgnore = true,
+        useRojoSourcemap = true,
+    },
+}	{
+    acceptSuggestionOnEnter = "on",
+    associations = {
+        filesystem = "cpp",
+        xstring = "cpp",
+    },
+    exclude = {
+        ["**/.DS_Store"] = true,
+        ["**/.git"] = true,
+        ["**/.hg"] = true,
+        ["**/.svn"] = true,
+        ["**/CVS"] = true,
+        ["**/Thumbs.db"] = true,
+    },
+    semantic = true,
+}
+[15:36:00.805][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/WWSDebug.lua , size = 12.720 KB
+[15:36:00.805][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/TweenQueue.lua , size = 3.209 KB
+[15:36:00.805][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/Tween/init.lua , size = 6.111 KB
+[15:36:00.805][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.805][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.805][info] [#0:script\core\document-link.lua:17]: CALL LINK
+[15:36:00.805][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/Tween/Easing.lua , size = 13.555 KB
+[15:36:00.805][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/TimeFormat.lua , size = 4.219 KB
+[15:36:00.805][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/Symbol.lua , size = 0.853 KB
+[15:36:00.805][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/StringUtils.lua , size = 0.425 KB
+[15:36:00.805][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/MaxExpFormula.lua , size = 0.061 KB
+[15:36:00.805][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/GetMouse.lua , size = 1.863 KB
+[15:36:00.805][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/GameAnalytics/init.lua , size = 0.296 KB
+[15:36:00.805][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/GameAnalytics/GameAnalyticsClient.lua , size = 1.434 KB
+[15:36:00.805][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/GameAnalytics/GameAnalytics/Version.lua , size = 0.063 KB
+[15:36:00.805][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/GameAnalytics/GameAnalytics/Validation.lua , size = 14.450 KB
+[15:36:00.805][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/GameAnalytics/GameAnalytics/Utilities.lua , size = 0.334 KB
+[15:36:00.805][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/GameAnalytics/GameAnalytics/Threading.lua , size = 2.330 KB
+[15:36:00.805][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/GameAnalytics/GameAnalytics/Store.lua , size = 2.620 KB
+[15:36:00.805][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/GameAnalytics/GameAnalytics/State.lua , size = 9.956 KB
+[15:36:00.805][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/GameAnalytics/GameAnalytics/Postie.lua , size = 5.770 KB
+[15:36:00.805][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/GameAnalytics/GameAnalytics/Logger.lua , size = 2.871 KB
+[15:36:00.805][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/GameAnalytics/GameAnalytics/init.lua , size = 27.833 KB
+[15:36:00.805][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/GameAnalytics/GameAnalytics/HttpApi/init.lua , size = 7.850 KB
+[15:36:00.805][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/GameAnalytics/GameAnalytics/HttpApi/HashLib/init.lua , size = 54.268 KB
+[15:36:00.805][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/GameAnalytics/GameAnalytics/HttpApi/HashLib/Base64.lua , size = 3.008 KB
+[15:36:00.805][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/GameAnalytics/GameAnalytics/GAResourceFlowType.lua , size = 0.319 KB
+[15:36:00.805][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/GameAnalytics/GameAnalytics/GAProgressionStatus.lua , size = 0.342 KB
+[15:36:00.805][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/GameAnalytics/GameAnalytics/GAErrorSeverity.lua , size = 0.384 KB
+[15:36:00.805][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/GameAnalytics/GameAnalytics/Events.lua , size = 16.945 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/FormatNumber/_internal/skeleton.lua , size = 14.408 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/FormatNumber/_internal/init.lua , size = 0.283 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/FormatNumber/_internal/formatter_settings.lua , size = 5.428 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/FormatNumber/_internal/format.lua , size = 8.650 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/FormatNumber/_internal/enums.lua , size = 1.017 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/FormatNumber/_internal/decimal_conversion.lua , size = 0.869 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/FormatNumber/_internal/class.lua , size = 4.816 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/FormatNumber/Utility.lua , size = 0.778 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/FormatNumber/Simple.lua , size = 2.128 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/FormatNumber/Main/Precision.lua , size = 6.650 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/FormatNumber/Main/Notation.lua , size = 3.654 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/FormatNumber/Main/IntegerWidth.lua , size = 0.985 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/FormatNumber/Main/init.lua , size = 6.830 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/FormatNumber/Main/DecimalFormatSymbols.lua , size = 1.770 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/EnumList.lua , size = 1.056 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/DataUtils.lua , size = 7.790 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/CustomEnum.lua , size = 2.544 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/Confetti.lua , size = 5.376 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/BouncyObject.lua , size = 2.948 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/BaseObject.lua , size = 17.272 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/KnitExecutionShared.lua , size = 17.485 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Utility/restrictRead.lua , size = 0.541 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Utility/None.lua , size = 0.134 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Utility/cleanupOnDestroy_smart.lua , size = 3.744 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Utility/cleanupOnDestroy.lua , size = 3.441 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Utility/cleanup.lua , size = 1.190 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Types.lua , size = 0.859 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/State/State.lua , size = 1.676 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/State/ComputedPairs.lua , size = 7.088 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/State/Computed.lua , size = 2.912 KB
+[15:36:00.821][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/State/Compat.lua , size = 1.862 KB
+[15:36:00.837][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Logging/parseError.lua , size = 0.398 KB
+[15:36:00.837][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Logging/messages.lua , size = 1.128 KB
+[15:36:00.837][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Logging/logWarn.lua , size = 0.455 KB
+[15:36:00.837][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Logging/logErrorNonFatal.lua , size = 0.930 KB
+[15:36:00.837][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Logging/logError.lua , size = 0.847 KB
+[15:36:00.837][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Instances/Scheduler.lua , size = 1.837 KB
+[15:36:00.837][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Instances/OnEvent.lua , size = 0.241 KB
+[15:36:00.837][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Instances/OnChange.lua , size = 0.260 KB
+[15:36:00.837][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Instances/New.lua , size = 9.603 KB
+[15:36:00.837][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Instances/defaultProps.lua , size = 2.173 KB
+[15:36:00.837][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Instances/Children.lua , size = 0.158 KB
+[15:36:00.837][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/init.lua , size = 0.759 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Dependencies/useDependency.lua , size = 0.781 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Dependencies/updateAll.lua , size = 3.770 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Dependencies/sharedState.lua , size = 0.582 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Dependencies/initDependency.lua , size = 0.711 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Dependencies/captureDependencies.lua , size = 2.804 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Colour/Oklab.lua , size = 1.782 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Animation/unpackType.lua , size = 2.463 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Animation/TweenScheduler.lua , size = 1.800 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Animation/Tween.lua , size = 2.704 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Animation/SpringScheduler.lua , size = 3.368 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Animation/springCoefficients.lua , size = 3.720 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Animation/Spring.lua , size = 6.079 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Animation/packType.lua , size = 2.777 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Animation/lerpType.lua , size = 4.316 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Animation/getTweenRatio.lua , size = 1.027 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/FastCast/TypeMarshaller.lua , size = 0.594 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/FastCast/TypeDefinitions.lua , size = 2.923 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/FastCast/Table.lua , size = 3.965 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/FastCast/Signal.lua , size = 5.079 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/FastCast/init.lua , size = 6.228 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/FastCast/ActiveCast.lua , size = 34.677 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Data/Purchases.lua , size = 12.362 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Data/BattlePass.lua , size = 6.786 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Data/Badges.lua , size = 1.030 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Data/Achievements/ShinyHunter.lua , size = 1.315 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Data/Achievements/ShiningGems.lua , size = 0.994 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Data/EngagementRewards.lua , size = 5.326 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Data/Achievements/init.lua , size = 0.478 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Data/Achievements/Fusione.lua , size = 1.303 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Data/Achievements/FriendList.lua , size = 1.328 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Data/Achievements/FailToLaunch.lua , size = 0.708 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Data/Achievements/Explorer.lua , size = 1.503 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Data/Achievements/Enchanting.lua , size = 1.293 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Data/Achievements/Collect.lua , size = 1.663 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Data/Achievements/BackFire.lua , size = 1.663 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/ZoneService.lua , size = 3.563 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/VersionService.lua , size = 7.023 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/TutorialService.lua , size = 3.029 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/TimeBasedRewardsService.lua , size = 6.204 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/RewardsService.lua , size = 3.477 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/PurchaseService.lua , size = 20.341 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/PlayerBoostService.lua , size = 5.012 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/PlaceLikesService.lua , size = 4.089 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/PetsService.lua , size = 8.763 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/MountService.lua , size = 6.349 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/LevelingService.lua , size = 4.360 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/LeaderboardService.lua , size = 14.999 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/InventoryService.lua , size = 8.571 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/InfluencerDonationService.lua , size = 2.280 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/GroupRewardService.lua , size = 2.324 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/GameAnalyticsService.lua , size = 4.160 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/GachaService.lua , size = 17.848 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/FushionService.lua , size = 7.628 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/FixTeleportService.lua , size = 4.653 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/EnchantService.lua , size = 3.470 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/DropsService.lua , size = 8.139 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/DataService.lua , size = 21.032 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/DailyLoginService.lua , size = 3.212 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/CompetitionService.lua , size = 12.123 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/EnemiesService.lua , size = 27.428 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/CollisionService.lua , size = 2.183 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/CharacterService.lua , size = 2.794 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/BattlePassService.lua , size = 7.967 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/BadgeService.lua , size = 6.294 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/AudioService.lua , size = 5.087 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/AdminConsole/init.lua , size = 3.764 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/AdminConsole/mathval.lua , size = 54.646 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/AdminConsole/Commands/wipedata.lua , size = 0.810 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/AdminConsole/Commands/setspeed.lua , size = 1.010 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/AdminConsole/Commands/give.lua , size = 1.422 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/AdminConsole/Commands/Example.lua , size = 0.814 KB
+[15:36:00.852][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/AdminConsole/CommandIndex.lua , size = 0.142 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/AdminConsole/Classes.lua , size = 11.407 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/AchievementService/ShinyHunter.lua , size = 4.570 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/AchievementService/ShiningGems.lua , size = 4.832 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/AchievementService/init.lua , size = 11.317 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/AchievementService/Fusion.lua , size = 4.518 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/AchievementService/FriendList.lua , size = 4.556 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/AchievementService/FailToLaunch.lua , size = 4.571 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/AchievementService/Explorer.lua , size = 4.540 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/AchievementService/Enchanting.lua , size = 4.557 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/AchievementService/Collect.lua , size = 4.751 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/AchievementService/BackFire.lua , size = 4.538 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Plugins/ViewportAngle.server.lua , size = 4.395 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Modules/ProfileService.lua , size = 85.941 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Modules/DataTemplate.lua , size = 2.644 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/KnitExecution.server.lua , size = 5.774 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Modules/TemplateClientModule.lua , size = 0.492 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Modules/Info/UIFrameworkInfo.lua , size = 0.911 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Modules/Gui/FancyButton.lua , size = 12.831 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Modules/Gui/AnimatedSprite.lua , size = 7.189 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/KnitExecution.client.lua , size = 6.444 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Popups/TemplatePopupGui.lua , size = 2.073 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/TwitterMenuGui.lua , size = 2.961 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/TutorialMenuGui.lua , size = 6.394 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/TemplateMenuGui.lua , size = 2.887 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/TeleportMenuGui.lua , size = 7.926 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/ServerNotificationMenuGui.lua , size = 5.375 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/PremiumShopMenuGui.lua , size = 14.046 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/PopupMenuGui.lua , size = 3.783 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/PetIndexMenuGui.lua , size = 8.847 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/PartyMenuGui.lua , size = 10.425 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/NotificationMenuGui.lua , size = 2.415 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/MainMenuGui.lua , size = 26.484 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/InventoryMenuGui.lua , size = 26.682 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/InfluencerDonationMenuGui.lua , size = 12.823 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/GiftCounterMenuGui.lua , size = 8.441 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/GachaMenuGui.lua , size = 20.403 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/FushionMenuGui.lua , size = 20.545 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/FancyFrame.lua , size = 5.155 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/EnchantmentMenuGui.lua , size = 8.720 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/DonationsMenuGui.lua , size = 2.894 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/DisclosureMenuGui.lua , size = 2.572 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/DailyRewardsMenuGui.lua , size = 7.278 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/BuyZoneMenuGui.lua , size = 4.257 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/BoostsMenuGui.lua , size = 5.977 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/BattlePassMenuGui.lua , size = 14.722 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/AchievementsMenuGui/ShinyHunter.lua , size = 2.561 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/AchievementsMenuGui/ShiningGems.lua , size = 2.560 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/AchievementsMenuGui/init.lua , size = 11.726 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/AchievementsMenuGui/Fusion.lua , size = 2.524 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/AchievementsMenuGui/FriendList.lua , size = 2.550 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/AchievementsMenuGui/FailToLaunch.lua , size = 2.559 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/AchievementsMenuGui/Explorer.lua , size = 2.540 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/AchievementsMenuGui/Enchanting.lua , size = 2.551 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/AchievementsMenuGui/Collect.lua , size = 2.512 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/AchievementsMenuGui/BackFire.lua , size = 2.538 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Controllers/VIPController.lua , size = 7.568 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Controllers/UIController.lua , size = 31.319 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Controllers/TutorialController.lua , size = 19.393 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Controllers/TeleportController.lua , size = 7.354 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Controllers/ShipController.lua , size = 4.481 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Controllers/PurchaseController.lua , size = 5.524 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Controllers/PetsController.lua , size = 18.670 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Controllers/ParticleController.lua , size = 3.299 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Controllers/MountController.lua , size = 4.170 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Controllers/InventoryController.lua , size = 5.635 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Controllers/GroupRewardController.lua , size = 4.412 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Controllers/GameAnalyticsController.lua , size = 1.427 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Controllers/FushionController.lua , size = 3.012 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Controllers/EnemiesController.lua , size = 18.756 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Controllers/DropsController.lua , size = 16.149 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Controllers/DeviceTypeController.lua , size = 1.733 KB
+[15:36:00.868][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Controllers/DataController.lua , size = 14.457 KB
+[15:36:00.884][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Controllers/CompetitionController.lua , size = 2.220 KB
+[15:36:00.884][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Controllers/BarriersController.lua , size = 4.593 KB
+[15:36:00.884][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Controllers/AudioController.lua , size = 6.507 KB
+[15:36:00.884][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Controllers/AdminConsole.lua , size = 9.195 KB
+[15:36:00.884][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Components/ComponentExample.lua , size = 1.464 KB
+[15:36:00.884][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/Packages/Trove.lua , size = 3.789 KB
+[15:36:00.884][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/Packages/Timer.lua , size = 0.072 KB
+[15:36:00.884][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/Packages/TaskQueue.lua , size = 0.082 KB
+[15:36:00.884][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/Packages/TableUtil.lua , size = 0.742 KB
+[15:36:00.884][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/Packages/Signal.lua , size = 0.074 KB
+[15:36:00.884][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/Packages/Shake.lua , size = 0.072 KB
+[15:36:00.884][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/Packages/Promise.lua , size = 0.073 KB
+[15:36:00.884][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/Packages/PID.lua , size = 0.068 KB
+[15:36:00.884][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/Packages/Option.lua , size = 0.074 KB
+[15:36:00.884][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/Packages/Loader.lua , size = 0.074 KB
+[15:36:00.884][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/Packages/Knit.lua , size = 0.070 KB
+[15:36:00.884][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/Packages/Input.lua , size = 0.072 KB
+[15:36:00.884][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/Packages/Dumpster.lua , size = 0.077 KB
+[15:36:00.884][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/Packages/Component.lua , size = 0.080 KB
+[15:36:00.884][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/Packages/Comm.lua , size = 0.070 KB
+[15:36:00.884][info] [#0:script\workspace\workspace.lua:315]: Found 246 files.
+[15:36:00.884][info] [#0:script\workspace\workspace.lua:317]: Loaded 246/246 files
+[15:36:00.884][info] [#0:script\workspace\workspace.lua:326]: Preload finish.
+[15:36:00.915][info] [#0:script\core\hover\return.lua:145]: RETURN SOURCE
+[15:36:01.040][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/KnitExecutionShared.lua	1
+[15:36:01.321][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/AdminConsole/mathval.lua	2
+[15:36:01.384][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Controllers/DataController.lua	11
+[15:36:01.399][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Animation/Tween.lua	6
+[15:36:01.509][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Controllers/DropsController.lua	2
+[15:36:01.509][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/Packages/TableUtil.lua	2
+[15:36:01.774][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Controllers/UIController.lua	1
+[15:36:02.118][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/GuiModules/Menus/InfluencerDonationMenuGui.lua	15
+[15:36:02.212][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Instances/Scheduler.lua	1
+[15:36:02.227][info] [#0:script\core\hover\return.lua:145]: RETURN SOURCE
+[15:36:02.227][info] [#0:script\provider\provider.lua:322]: function MarketplaceService:PromptProductPurchase(player: Player, productId: number, equipIfPurchased: boolean? ‎= true, currencyType: Enum.CurrencyType? ‎= Default)
+‎  -> nil‎
+[15:36:02.227][info] [#0:script\provider\provider.lua:323]: Used to prompt a user to purchase a product with the given product id.
+
+[View documents](https://developer.roblox.com/en-us/api-reference/function/MarketplaceService/PromptProductPurchase)
+[15:36:02.227][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Animation/Spring.lua	15
+[15:36:02.243][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Animation/SpringScheduler.lua	3
+[15:36:02.524][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/Animation/TweenScheduler.lua	12
+[15:36:02.634][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Client/Modules/Gui/FancyButton.lua	3
+[15:36:02.993][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/DataService.lua	10
+[15:36:03.071][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Server/Services/InventoryService.lua	1
+[15:36:03.118][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Modules/BaseObject.lua	2
+[15:36:03.165][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/init.lua	2
+[15:36:03.274][warn] [#0:script\await.lua:167]: Await step takes [0.109] sec.
+[15:36:03.509][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Fusion/State/Compat.lua	3
+[15:36:03.540][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief/src/Project_Shared/Shared/Types.lua	4
+[15:36:03.555][debug][#0:script\provider\diagnostic.lua:386]: 全文诊断耗时：	2.672
+[15:36:03.727][info] [#0:script\core\hover\return.lua:145]: RETURN SOURCE
+[15:36:03.727][info] [#0:script\provider\provider.lua:322]: function Client:DonateCurrency(player: Player, donating: number)
+[15:36:03.727][info] [#0:script\provider\provider.lua:323]: nil
+[15:36:07.290][info] [#0:script\provider\provider.lua:322]: ‎local CompetitionService: Service
+[15:36:07.290][info] [#0:script\provider\provider.lua:323]: nil
+[15:36:08.540][info] [#0:script\core\hover\return.lua:145]: RETURN SOURCE
+[15:36:08.540][info] [#0:script\provider\provider.lua:322]: function UIController:HandleButton(button: GuiButton, callbacks: {[string]: () -> ()})
+‎  -> Types.Trove | nil‎
+[15:36:08.540][info] [#0:script\provider\provider.lua:323]: A Basic button handler. Handles setting up callbacks.
+HandleButton() already clears its own connections so you don't need to worry about that when you call it.
+
+For FancyButtons, use FancyButton:ConfigureHandlers() instead! It runs this internally.
