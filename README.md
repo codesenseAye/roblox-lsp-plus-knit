@@ -1,6 +1,7 @@
 # Roblox Luau Language Server
 
 [Original Project](https://github.com/sumneko/lua-language-server) by [sumneko](https://github.com/sumneko)
+
 [NightrainsRbx Project](https://github.com/NightrainsRbx/RobloxLsp)
 
 Make sure you don't have both [Lua](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) by sumneko and Roblox LSP enabled.
