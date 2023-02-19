@@ -33504,3 +33504,1323 @@
         Holdon:   0
         Waiting:  0
 ==============================================
+[17:27:12.655][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 68.797 MB
+        # 00 : 62.937 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:28:12.108][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 69.235 MB
+        # 00 : 63.375 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:29:12.546][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 69.674 MB
+        # 00 : 63.814 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:30:11.999][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 70.112 MB
+        # 00 : 64.252 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:31:12.437][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 70.551 MB
+        # 00 : 64.691 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:32:11.921][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 70.989 MB
+        # 00 : 65.129 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:33:12.499][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 71.428 MB
+        # 00 : 65.568 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:34:11.952][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 71.866 MB
+        # 00 : 66.006 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:35:12.468][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 72.304 MB
+        # 00 : 66.443 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:36:11.968][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 72.743 MB
+        # 00 : 66.883 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:37:12.358][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 73.181 MB
+        # 00 : 67.320 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:38:11.812][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 73.620 MB
+        # 00 : 67.760 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:39:12.312][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 74.058 MB
+        # 00 : 68.197 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:40:11.843][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 74.497 MB
+        # 00 : 68.637 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:41:12.296][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 74.934 MB
+        # 00 : 69.074 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:42:11.843][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 75.374 MB
+        # 00 : 69.514 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:43:12.390][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 75.811 MB
+        # 00 : 69.951 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:44:11.827][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 76.249 MB
+        # 00 : 70.389 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:45:12.296][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 76.688 MB
+        # 00 : 70.828 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:46:11.780][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 77.126 MB
+        # 00 : 71.266 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:47:12.249][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 77.565 MB
+        # 00 : 71.705 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:48:12.733][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 78.003 MB
+        # 00 : 72.143 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:49:12.296][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 78.442 MB
+        # 00 : 72.582 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:50:11.796][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 78.880 MB
+        # 00 : 73.020 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:51:12.296][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 79.318 MB
+        # 00 : 73.457 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:52:11.765][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 79.757 MB
+        # 00 : 73.897 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:53:12.327][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 80.195 MB
+        # 00 : 74.334 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:54:11.827][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 80.634 MB
+        # 00 : 74.774 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:55:12.312][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 81.072 MB
+        # 00 : 75.211 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:56:11.827][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 81.511 MB
+        # 00 : 75.651 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:57:12.312][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 81.949 MB
+        # 00 : 76.088 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:58:11.780][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 82.388 MB
+        # 00 : 76.528 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[17:59:12.296][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 82.826 MB
+        # 00 : 76.965 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:00:11.780][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 83.263 MB
+        # 00 : 77.403 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:01:12.265][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 83.703 MB
+        # 00 : 77.842 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:02:12.702][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 84.140 MB
+        # 00 : 78.280 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:03:12.233][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 84.580 MB
+        # 00 : 78.719 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:04:12.640][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 85.017 MB
+        # 00 : 79.157 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:05:12.140][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 85.457 MB
+        # 00 : 79.596 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:06:12.624][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 85.894 MB
+        # 00 : 80.034 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:07:12.108][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 86.332 MB
+        # 00 : 80.472 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:08:12.640][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 86.771 MB
+        # 00 : 80.911 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:09:12.093][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 87.209 MB
+        # 00 : 81.349 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:10:12.530][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 87.648 MB
+        # 00 : 81.788 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:11:12.015][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 88.086 MB
+        # 00 : 82.226 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:12:12.593][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 88.525 MB
+        # 00 : 82.665 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:13:12.124][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 88.963 MB
+        # 00 : 83.103 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:14:12.577][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 89.402 MB
+        # 00 : 83.542 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:15:11.968][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 89.840 MB
+        # 00 : 83.980 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:16:12.421][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 90.277 MB
+        # 00 : 84.417 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:17:11.937][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 90.717 MB
+        # 00 : 84.857 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:18:12.390][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 91.154 MB
+        # 00 : 85.294 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:19:11.890][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 91.594 MB
+        # 00 : 85.734 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:20:12.390][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 92.031 MB
+        # 00 : 86.171 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:21:11.937][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 92.471 MB
+        # 00 : 86.611 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:22:12.515][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 92.908 MB
+        # 00 : 87.048 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:23:12.077][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 93.346 MB
+        # 00 : 87.486 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:24:12.546][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 93.785 MB
+        # 00 : 87.925 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:25:11.937][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 94.223 MB
+        # 00 : 88.363 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:26:12.374][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 94.662 MB
+        # 00 : 88.802 MB
+        # 01 : 1.124 MB
+        # 02 : 1.802 MB
+        # 03 : 1.133 MB
+        # 04 : 1.802 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
