@@ -67,7 +67,7 @@ return function (uri, offset)
         if src.dummy then
             goto CONTINUE
         end
-        log.info("REFFFF")
+        log.info("THING")
         -- log.tableInfo(src)
         local root = guide.getRoot(src)
         if not root then

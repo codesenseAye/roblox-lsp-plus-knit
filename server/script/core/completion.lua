@@ -635,7 +635,8 @@ local LIBS = {
 }
 
 local function checkKnitMethods(start, ast)
-    local isServer = ast.uri:find("/Controllers/") or ast.uri:find("/Services/")
+    local isServer = ast.uri:find("/Services/")
+    -- local isServer = ast.uri:find("/Controllers/") or ast.uri:find("/Services/")
 
     local srcFullText = files.getText(ast.uri)
     local srcTableName, backwardPos = lookBackward.findWord(srcFullText, start - 1)
@@ -653,6 +654,7 @@ local function checkKnitMethods(start, ast)
 
     local methodSources = {}
 
+    -- if srcTableName and (srcTableName:find("Controller") or srcTableName:find("Service")) then
     if srcTableName and (srcTableName:find("Controller") or srcTableName:find("Service")) then
         -- gotta check to make sure its not a roblox service and knit service
         --TODO: ^ knit service vs roblox service check
@@ -693,6 +695,10 @@ local function checkKnitMethods(start, ast)
                 if fieldName == "Client" then
                     isClientMethod = true
                 end
+            end
+
+            if not dot and srcTableName:find("Controller") then
+                isClientMethod = true
             end
             -- log.info(methodName .. " is client?: " .. tostring(isClientMethod))
 

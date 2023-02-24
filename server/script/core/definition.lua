@@ -91,6 +91,71 @@ return function (uri, offset)
     if source.type == "type.name" then
         defs[#defs+1] = source.typeAliasGeneric or vm.getTypeAlias(source)
     end
+
+    -- KNIT METHOD GO-TO
+    -- find the knit module method and replace the source with its proper source
+    if source.type == "method" then
+        local methodName = source[1]
+        local tableName = source.parent and source.parent.parent and source.parent.parent.args and source.parent.parent.args[1]
+        
+        if tableName then
+
+            if not tableName[1] then
+                -- now this is probably .Client:MethodName()
+
+                if tableName.field and tableName.field[1] == "Client" then
+                    -- for sure now
+                    tableName = tableName.field.parent.node[1]
+                    -- this is the name of the knit module
+                end
+            else
+                -- not .Client:MethodName()
+                tableName = tableName[1]
+            end
+
+            if type(tableName) == "string" then
+
+                -- log.tableInfo(source)
+                local knitModuleUri
+
+                for _, thisUri in ipairs(files.getAllUris()) do
+                    if thisUri:find(tableName) then
+                        knitModuleUri = thisUri
+                            
+                        if thisUri:find("init%.lua") then
+                            -- if this was a init.lua file under a folder, this would be where the real methods are located
+                            -- so stop here and make sure nothing overwrites it
+                            log.info("HOVER STOP FULL STOP")
+                            break
+                        end
+                    end
+                end
+
+                if knitModuleUri then
+                    local uriAst = files.getAst(knitModuleUri)
+                    local knitModuleText = files.getText(knitModuleUri)
+
+                    if tableName and (tableName:find("Controller") or tableName:find("Service")) then
+                        guide.eachSourceType(uriAst.ast, "setmethod", function(src)
+                            local textInRange = knitModuleText:sub(src.start, src.finish)
+                            textInRange = textInRange:sub(textInRange:find(":") + 1, -1)                
+                        
+                            if textInRange == methodName then
+                                table.insert(defs, src)
+                                --source = src
+                            end
+                        end)
+                    end
+                else
+                    -- failed to find the knit module uri to get the hover method
+                end
+            else
+                -- the result was a table so its not a knit module call
+            end
+        end
+    end
+
+
     local values = {}
     for _, src in ipairs(defs) do
         local value = guide.getObjectValue(src)
@@ -106,6 +171,8 @@ return function (uri, offset)
             goto CONTINUE
         end
         if src.value and src.value.uri then
+            log.info("DEF")
+            log.info(src.value.uri)
             results[#results+1] = {
                 uri    = files.getOriginUri(src.value.uri),
                 source = source,
@@ -131,6 +198,8 @@ return function (uri, offset)
         and source.type ~= 'doc.see.name' then
             goto CONTINUE
         end
+        log.info("DEF 2")
+        log.info(root.uri)
         results[#results+1] = {
             target = src,
             uri    = files.getOriginUri(root.uri),

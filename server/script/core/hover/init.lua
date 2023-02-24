@@ -287,38 +287,43 @@ local function getHoverByUri(uri, offset)
                 tableName = tableName[1]
             end
 
-            -- log.tableInfo(source)
-            local knitModuleUri
+            if type(tableName) == "string" then
 
-            for _, thisUri in ipairs(files.getAllUris()) do
-                if thisUri:find(tableName) then
-                    knitModuleUri = thisUri
-                        
-                    if thisUri:find("init%.lua") then
-                        -- if this was a init.lua file under a folder, this would be where the real methods are located
-                        -- so stop here and make sure nothing overwrites it
-                        log.info("HOVER STOP FULL STOP")
-                        break
+                -- log.tableInfo(source)
+                local knitModuleUri
+
+                for _, thisUri in ipairs(files.getAllUris()) do
+                    if thisUri:find(tableName) then
+                        knitModuleUri = thisUri
+                            
+                        if thisUri:find("init%.lua") then
+                            -- if this was a init.lua file under a folder, this would be where the real methods are located
+                            -- so stop here and make sure nothing overwrites it
+                            log.info("HOVER STOP FULL STOP")
+                            break
+                        end
                     end
                 end
-            end
 
-            if knitModuleUri then
-                local uriAst = files.getAst(knitModuleUri)
-                local knitModuleText = files.getText(knitModuleUri)
+                if knitModuleUri then
+                    local uriAst = files.getAst(knitModuleUri)
+                    local knitModuleText = files.getText(knitModuleUri)
 
-                if tableName and (tableName:find("Controller") or tableName:find("Service")) then
-                    guide.eachSourceType(uriAst.ast, "setmethod", function(src)
-                        local textInRange = knitModuleText:sub(src.start, src.finish)
-                        textInRange = textInRange:sub(textInRange:find(":") + 1, -1)                
-                    
-                        if textInRange == methodName then
-                            source = src
-                        end
-                    end)
+                    if tableName and (tableName:find("Controller") or tableName:find("Service")) then
+                        guide.eachSourceType(uriAst.ast, "setmethod", function(src)
+                            local textInRange = knitModuleText:sub(src.start, src.finish)
+                            textInRange = textInRange:sub(textInRange:find(":") + 1, -1)                
+                        
+                            if textInRange == methodName then
+                                source = src
+                            end
+                        end)
+                    end
+                else
+                    -- failed to find the knit module uri to get the hover method
                 end
             else
-                -- failed to find the knit module uri to get the hover method
+                -- the result was a table so its not a knit module call
             end
         end
     end
