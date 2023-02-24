@@ -45,6 +45,7 @@ Roblox OS Community Discord Server: https://discord.gg/c4nPcZHwFU
 ## My Additions
 
 - [x] Knit Go-to File
+- [x] Knit Go-to Method
 - [x] Knit Method Auto Completion
 - [x] Knit Method Signature Help
 - [x] Knit Method Auto Import
@@ -68,7 +69,7 @@ Knit Method Auto Completion
 -------
 
 ![avatar](https://i.imgur.com/0DPDhi2.png)
-Knit Method Hover
+Knit Method Hover (use CTRL to go-to method)
 
 ### Preview
 
