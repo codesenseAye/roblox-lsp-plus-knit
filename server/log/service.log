@@ -1,12 +1,12 @@
-[15:06:48.213][info] [#0:c:\Users\shott\OneDrive - Wonder Works Studio\roblox-lsp-plus-knit\server\main.lua:54]: Lua Lsp startup, root: 	c:/Users/shott/OneDrive - Wonder Works Studio/roblox-lsp-plus-knit/server
-[15:06:48.213][debug][#0:c:\Users\shott\OneDrive - Wonder Works Studio\roblox-lsp-plus-knit\server\main.lua:55]: ROOT:	c:/Users/shott/OneDrive - Wonder Works Studio/roblox-lsp-plus-knit/server
-[15:06:48.213][debug][#0:c:\Users\shott\OneDrive - Wonder Works Studio\roblox-lsp-plus-knit\server\main.lua:56]: LOGPATH:	c:/Users/shott/OneDrive - Wonder Works Studio/roblox-lsp-plus-knit/server/log
-[15:06:48.213][debug][#0:c:\Users\shott\OneDrive - Wonder Works Studio\roblox-lsp-plus-knit\server\main.lua:57]: METAPATH:	c:/Users/shott/OneDrive - Wonder Works Studio/roblox-lsp-plus-knit/server/meta
-[15:06:48.275][info] [#0:script\pub\pub.lua:48]: Create brave:	1
-[15:06:48.275][info] [#0:script\pub\pub.lua:48]: Create brave:	2
-[15:06:48.275][info] [#0:script\pub\pub.lua:48]: Create brave:	3
-[15:06:48.275][info] [#0:script\pub\pub.lua:48]: Create brave:	4
-[15:06:48.275][debug][#0:script\service\service.lua:136]: 
+[15:13:54.701][info] [#0:c:\Users\shott\OneDrive - Wonder Works Studio\roblox-lsp-plus-knit\server\main.lua:54]: Lua Lsp startup, root: 	c:/Users/shott/OneDrive - Wonder Works Studio/roblox-lsp-plus-knit/server
+[15:13:54.701][debug][#0:c:\Users\shott\OneDrive - Wonder Works Studio\roblox-lsp-plus-knit\server\main.lua:55]: ROOT:	c:/Users/shott/OneDrive - Wonder Works Studio/roblox-lsp-plus-knit/server
+[15:13:54.701][debug][#0:c:\Users\shott\OneDrive - Wonder Works Studio\roblox-lsp-plus-knit\server\main.lua:56]: LOGPATH:	c:/Users/shott/OneDrive - Wonder Works Studio/roblox-lsp-plus-knit/server/log
+[15:13:54.701][debug][#0:c:\Users\shott\OneDrive - Wonder Works Studio\roblox-lsp-plus-knit\server\main.lua:57]: METAPATH:	c:/Users/shott/OneDrive - Wonder Works Studio/roblox-lsp-plus-knit/server/meta
+[15:13:54.747][info] [#0:script\pub\pub.lua:48]: Create brave:	1
+[15:13:54.747][info] [#0:script\pub\pub.lua:48]: Create brave:	2
+[15:13:54.747][info] [#0:script\pub\pub.lua:48]: Create brave:	3
+[15:13:54.747][info] [#0:script\pub\pub.lua:48]: Create brave:	4
+[15:13:54.747][debug][#0:script\service\service.lua:136]: 
 ========= Medical Examination Report =========
     --------------- Memory ---------------
         Total: 1.915 MB
@@ -28,7 +28,7 @@
         Holdon:   0
         Waiting:  0
 ==============================================
-[15:06:48.338][debug][#0:script\provider\client.lua:73]: Client init	{
+[15:13:54.810][debug][#0:script\provider\client.lua:73]: Client init	{
     capabilities = {
         general = {
             markdown = {
@@ -427,11 +427,11 @@
         version = "1.75.1",
     },
     locale = "en-us",
-    processId = 8880,
+    processId = 10060,
     rootPath = "c:\\Users\\shott\\OneDrive - Wonder Works Studio\\Desktop\\monster mash\\kids-relief",
     rootUri = "file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief",
     trace = "off",
-    workDoneToken = "c9b3249b-3343-4b7b-9a9a-3ef1c865d206",
+    workDoneToken = "34ae633f-eeba-4d9b-940f-65b3d056eb6f",
     workspaceFolders = {
         [1] = {
             name = "kids-relief",
@@ -439,7 +439,7 @@
         },
     },
 }
-[15:06:48.338][info] [#0:script\language.lua:135]: VSC language: en-us
-[15:06:48.338][info] [#0:script\language.lua:136]: LS  language: en-us
-[15:06:48.338][info] [#0:script\workspace\workspace.lua:32]: Workspace inited: 	file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief
-[15:06:48.338][info] [#0:script\workspace\workspace.lua:39]: Log path: 	c:/Users/shott/OneDrive - Wonder Works Studio/roblox-lsp-plus-knit/server/log/file_c%3A_Users_shott_OneDrive%20-%20Wonder%20Works%20Studio_Desktop_monster%20mash_kids-relief.log
+[15:13:54.810][info] [#0:script\language.lua:135]: VSC language: en-us
+[15:13:54.810][info] [#0:script\language.lua:136]: LS  language: en-us
+[15:13:54.810][info] [#0:script\workspace\workspace.lua:32]: Workspace inited: 	file:///c%3A/Users/shott/OneDrive%20-%20Wonder%20Works%20Studio/Desktop/monster%20mash/kids-relief
+[15:13:54.810][info] [#0:script\workspace\workspace.lua:39]: Log path: 	c:/Users/shott/OneDrive - Wonder Works Studio/roblox-lsp-plus-knit/server/log/file_c%3A_Users_shott_OneDrive%20-%20Wonder%20Works%20Studio_Desktop_monster%20mash_kids-relief.log
